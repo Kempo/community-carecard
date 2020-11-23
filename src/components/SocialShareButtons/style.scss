@@ -1,0 +1,24 @@
+.social-share-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .social-share-button {
+    height: 35px;
+
+    .custom-icon {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+    }
+  }
+
+  .bottom-text {
+    font-style: italic;
+    width: 100%;
+    font-size: 13px;
+    // Size is 14 in the mockup but it doesn't fit our current box sizes, so I shrank it by one px. We can change it, but I don't mind this tbh
+    font-weight: 500;
+    color: #545454;
+  }
+}

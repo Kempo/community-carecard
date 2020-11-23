@@ -1,0 +1,59 @@
+@import 'styles/colors.scss';
+@import 'styles/screenSizes.scss';
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../../images/textures/subscribe-texture-small.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 16px;
+
+  @include large-desktop {
+    background-image: url('../../../../images/textures/subscribe-texture-large.png');
+  }
+
+  h2 {
+    margin: 28px 0 42px 0;
+  }
+
+  .email-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+
+    form {
+      width: 100%;
+    }
+
+    .email-input, .submit-button {
+      margin-top: 18px;
+    }
+
+    .email-input {
+      flex-grow: 2;
+      margin-right: 16px;
+
+      input {
+        flex-grow: 2;
+      }
+    }
+  }
+
+  .social-buttons {
+    margin: 20px auto 40px auto;;
+
+    p {
+      font-style: italic;
+      margin-top: 20px;
+    }
+
+    .social-share-buttons {
+      .social-share-button {
+        margin: 0 10px;
+      }
+    }
+  }
+}

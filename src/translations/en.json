@@ -1,0 +1,409 @@
+{
+  "translation" : {
+    "SHARED": {
+      "GENERIC_ERROR": "Something has gone wrong, please try again.",
+      "SHARE": "Share",
+      "CONTACT": "Contact",
+      "PRIVACY_POLICY": "Privacy policy",
+      "TOS": "Terms of service",
+      "ACCEPT_TOS": "By continuing you accept our"
+    },
+    "FOR_BIZ": {
+      "HEADER": "For Businesses",
+      "FIRST": "<strong>As a business owner, you have a million things on your mind</strong> — a feeling that has only been amplified by the coronavirus. Right now, one of your main concerns may be how you’re going to stay afloat when customers aren’t out and about, either due to state regulations or personal health concerns.",
+      "SECOND": "We get it. <strong>We are the sons, daughters, and friends of small business owners</strong> who’ve been struggling under the weight of this pandemic, and we want to help.",
+      "THIRD": "That’s why we created Community Carecard. <strong>It allows your customers to support you by buying a digital gift card now to redeem for goods and services later.</strong> We designed our process to allow any business to participate, even if you don’t have a website.",
+      "GET_STARTED": "It's free and simple to get started:",
+      "ONBOARD_FLOW": {
+        "STEP_0": "Fill out a quick form to claim to business",
+        "STEP_1": "Verify you’re the business owner via email",
+        "STEP_2": "Link your bank account to Stripe to enable direct deposits",
+        "STEP_3": "Share your Community Carecard page with your customers!" 
+      },
+      "FOOTER_1": "Ready to start selling digital gift cards? Registration takes less than five minutes.",
+      "FOOTER_2": "Check out our <strong><1>Resources page</1></strong> also for additional resources on navigating the coronavirus pandemic.",
+      "REGISTER_BIZ": "Register my business"
+    },
+    "HEADER": {
+      "NAV": {
+        "HOME": "Home",
+        "HOW_IT_WORKS": "How it works",
+        "ABOUT_US": "Our team",
+        "FAQ": "FAQ",
+        "BUSINESS": "For buisnesses",
+        "CONTACT": "Contact",
+        "BIZ_RESOURCES": "Business Resources"
+      },
+      "I_HAVE_BUSINESS": "Register my business"
+    },
+    "ABOUT": {
+      "HEADER": "About Community Carecard",
+      "PARAGRAPH_1": "<strong>We are the sons and daughters of small business owners</strong>, the students cramming for final exams in the back of your cafe, the starving artists you include in open mic nights, the ones you make beautiful every time we leave your salon. Together, we’re better as a society because you are the cornerstone of our local communities.",
+      "PARAGRAPH_2": "When we needed you to be open — to fix that broken nail, to massage away our stress, to pour us a glass of much deserved wine, to feed our families — you were there, and <strong>now we want to be open for you.</strong>",
+      "PARAGRAPH_3": "We’re a diverse team (Google, Airbnb, entrepreneurs, engineers, designers, and even the Twitter FailWhale Inventor!) committed to building a platform that enables you to sell gift cards digitally, whether or not you’re set up to do it today. Since we know your focus is — and should be — on your family, teams, and customers, we’ve made our onboarding process simple, allowing you to <strong>prioritize what truly matters.</strong>",
+      "MEET_THE_TEAM": "Meet the team",
+      "VALUES": "Our values",
+      "OPTIMISTIC": "Optimistic",
+      "LOCAL": "Local",
+      "COMPASSIONATE": "Compassionate",
+      "TRUSTWORTHY": "Trustworthy"
+    },
+    "CONTACT": {
+      "HEADER": "We'd love to hear from you",
+      "DESC": "If you have a question, idea or comment about Community Carecard, email us at <1>{{email}}</1><br/><br/>You can also visit our Frequently Asked Questions.",
+      "EMAIL_BTN": "CONTACT US",
+      "FAQ_LINK": "VISIT THE FAQ"
+    },
+    "HOW_IT_WORKS": {
+      "MAIN": "What is Community Carecard?",
+      "WHAT": "Community Carecard is a way to <b>support local businesses by purchasing a digital gift card.</b> This gives them cash now in exchange for goods or services later, helping them ride out the coronavirus pandemic.",
+      "STATS": "With 7.5 million small businesses facing the possibility of permanent closure, it’s essential we rally around the mom-and-pop shops who make our hometowns whole.",
+      "SELL": "With that in mind, <b>our team of volunteers</b> has created a process that lets any small business start selling digital gift cards, <b>even if they don’t have a website.</b>",
+      "HERE": "Here’s how it works…",
+      "STEP_0": "Find a business you’d love to support",
+      "STEP_1": "Choose your gift card amount",
+      "STEP_2": "Check out securely with Stripe, and receive your gift card via email",
+      "STEP_3": "Your money’s sent immediately to the business owner",
+      "STEP_4": "Redeem your gift card in the future"
+    },
+    "BUSINESS": {
+      "ALERT": {
+        "ACTIVE": "This business has already been set up to sell gift cards",
+        "CLAIMED": "Business has already been claimed. Please contact administrator for assistance.",
+        "PENDING": "We have verified this business. The owner should receive an onboarding email. If you have not received an email or believe this is in error, please contact our support team"
+      },
+      "ONBOARD_SUCCESSFUL": "Your business is set up. Patrons can now buy gift cards",
+      "SHARE_MESSAGE": "I just supported a local business through Community Carecard and you should, too. Help me support {{name}}",
+      "DISABLED_TEXT": "Select a Card"
+    },
+    "HOME": {
+      "BUY_CARD": "Buy a gift card",
+      "I_HAVE_BUSINESS": "Register my business",
+      "ENTER_EMAIL": "Your e-mail",
+      "FEATURED_BUSINESSES": "Check out our featured businesses",
+      "GET_UPDATES": "Want to get involved?",
+      "GET_UPDATES_DESCRIPTION": "We’re on a mission to help small businesses weather the coronavirus pandemic. Sign up for emails to receive important updates, stories, and ways to help.",
+      "GET_UPDATES_SOCIAL": "Share on social to spread the word.",
+      "HEADER": "Support small businesses during this crisis by buying a gift card now and redeeming later",
+      "SEARCH_PLACEHOLDER": "Find a business by name and location",
+      "SEARCH_PLACEHOLDER_MOBILE": "Search by name and location",
+      "SOCIAL_SHARE_MESSAGE": "With literally five clicks, you can help your favorite local business weather the coronavirus storm by buying a digital gift card or giving them a tip",
+      "SUBSCRIBE": "Subscribe",
+      "TESTIMONIAL_0": "Closing my business was tough but supporting my staff and family during this difficult time is what keeps me up at night. <b>We cannot work remotely and need to generate revenue – the Community Carecard allows us to do that.</b> We are not a digitized business, so we did not have a way to sell gift cards but we also needed something easy to implement. The ability to receive gift card sales will allow us to pay operational costs and support our team until we can reopen.",
+      "SEARCH_MAIN": "Support a small business now by buying a gift card",
+      "SEARCH_TEXT_ONE": "If your favorite business hasn’t registered with us yet, simply click ‘Nominate’ on its page. We’ll reach out to the biz to let it know its fans are waiting!",
+      "SEARCH_TEXT_TWO": "Coming soon: more features that let you find your fave local businesses, like searching by location and category",
+      "SPONSORED": {
+        "POW": "Powered by",
+        "POW_ALT": "Stripe",
+        "PART": "Partnerships",
+        "PART_ALT": "COVID Accelerator",
+        "MEP": "Media and Press",
+        "MEP_ALT": "Bloomberg"
+      },
+      "HOW_IT_WORKS": {
+        "STEP_1": {
+          "TITLE": "Support",
+          "DESC": "Find your favorite local business by name or zip code. Purchase a gift card — the business gets paid immediately"
+        },
+        "STEP_2": {
+          "TITLE": "Share",
+          "DESC": "Show the business owners you support them — and show your neighbors how they can help — by sharing on social"
+        },
+        "STEP_3": {
+          "TITLE": "Enjoy",
+          "DESC": "Feel good about helping a local business and, once it reopens, enjoy its services by redeeming your Community Carecard"
+        }
+      }
+    },
+    "FEATURED": [
+      {
+        "TITLE": "Last Minute Gear",
+        "DESC": "We try our best to make a positive impact on our community, and would love to continue doing so, which is why we need your support to help us survive this pandemic.",
+        "LINK": "Support James now by buying a gift card",
+        "LOCATION": "San Francisco, CA"
+      },
+      {
+        "TITLE": "C&K Nails Spa",
+        "DESC": "We miss our clients and hope to come back to service you again.  Please support our business with a gift card purchase while our shop is closed during the coronavirus pandemic.",
+        "LINK": "Support Kathy now by buying a gift card",
+        "LOCATION": "Lake Charles, LA"
+      },
+      {
+        "TITLE": "Your AV Guy",
+        "DESC": "We are a family owned and operated Audio/Visual company and need your support!",
+        "LINK": "Support Mike now by buying a gift card",
+        "LOCATION": "Grand Prairie, TX"
+      },
+      {
+        "TITLE": "St. Bernard Drugs",
+        "DESC": "We support healthy communities.",
+        "LINK": "Support Joseph now by buying a gift card",
+        "LOCATION": "New Orleans, LA"
+      },
+      {
+        "TITLE": "Quinnderella’s Toys",
+        "DESC": "Educational and specialty toys to keep the kids busy at home!",
+        "LINK": "Support Jenny now by buying a gift card",
+        "LOCATION": "Manasquan, NJ"
+      }
+    ],
+    "FAQ": {
+      "GENERAL": [
+        {
+          "Q": "What is Community Carecard?",
+          "A": "Community Carecard is a way to support local businesses that have been affected by the coronavirus pandemic. By purchasing a gift card online, you’re giving your favorite local business money now in exchange for goods or services later. This immediate cash flow will help sustain businesses during closures or slow sales caused by this unprecedented situation. "
+        },
+        {
+          "Q": "Who’s behind this initiative?",
+          "A": "Though Community Carecard is the brain trust of several small business enthusiasts, it really took shape when Lee Anne Grant, Chief Business Officer of The Assembly; Mike McCormick, an Associate Partner at Great Point Ventures; and former Googlers Paul Huynh and Peter Szalontay brought their respective projects together. They all share a passion of finding effective ways to build and sustain communities, amplify compassion and humanity, and connect people to make the world a better place."
+        },
+        {
+          "Q": "Where are you located?",
+          "A": "The Community Carecard team is supported by a group of impassioned leaders who have come together online since the outbreak via different COVID help networks and incubators. We’re truly a global and diverse team, with members located in San Francisco, Colombia, London, and beyond. Let us know hello@ccarecard.com if you’d like to help us deploy to more businesses in your area."
+        },
+        {
+          "Q": "I am a member of the press, how can I learn more?",
+          "A": "Please contact us at hello@ccarecard.com, we’d love to find ways to partner with you and help spread the message to support our local businesses."
+        }
+      ],
+      "SUPPORTERS": [
+        {
+          "Q": "How does it work?",
+          "A": "Three very easy steps: <br/> <br/> <strong>Support:</strong> Find your favorite local business by name or zip code. Purchase a gift card or give a tip — the business gets paid immediately <br/> <strong>Share:</strong> Show the business owners you support them — and show your neighbors how they can help — by sharing on social <br/> <strong>Enjoy:</strong> Feel good about helping a local business and, once it reopens, enjoy its services by redeeming your Community Carecard."
+        },
+        {
+          "Q": "Are these like regular gift cards?",
+          "A": "Yes and no. If you buy a $100 Community Carecard today, you’ll be able to redeem it for $100 worth of goods or services when your favorite local business reopens. <br/> <br/> But, it’s important to note that our gift cards are <strong>one-time use</strong> only. Translation: If you have a $25 gift card to your favorite restaurant, but only spend $22 at dinner, you will <i>not</i> be able to use that $3 balance at a later date. <br/> <br/> That’s not because we’re trying to fleece you; that’s because we’re trying to get this initiative off the ground quickly — and get your money to the business owners who desperately need it. We’ve worked our way around this issue by offering an array of gift card denominations. At your local coffee shop, for example, we’d advise buying five $5 gift cards rather than one $25 gift card."
+        },
+        {
+          "Q": "What are tips?",
+          "A": "We’ve also built in the ability to “tip” a business, which is basically a way of showing your appreciation and support. <br/> <br/> While you won’t receive goods or services in exchange for your tip, you can feel good knowing you’ve helped a deserving entrepreneur (and their hardworking staff) during a tough time. <br/> Please note, donations to for-profit businesses are not tax deductible."
+        },
+        {
+          "Q": "How do I choose which local businesses to support?",
+          "A": "With all the deserving local businesses out there, we know it can be hard to narrow your list. We suggest starting with the shops and stores that you love and visit most. Search for them on our site. <br/> <br/> After you’ve taken care of your favorites, consider other businesses in your community — like local bookstores and salons — that social distancing rules and closures may have hit the hardest."
+        },
+        {
+          "Q": "Is there another way I can support a business besides buying a gift card?",
+          "A": "Yes! You can spread the word about Community Carecard to businesses and customers alike. Encourage local businesses to sign up (it’s free for them!), and encourage your friends and neighbors to support their favorites. <br/> We also offer a “tipping” option, where your money goes straight to a business’ bank account — without the requirement or expectation of future services and goods. This is a very generous way to give back to your local community favorites. <br/> Of course, this is a community affair — so if you have any recommendations for how we can work together to support local businesses, please let us know at hello@ccarecard.com."
+        },
+        {
+          "Q": "Do the gift cards expire?",
+          "A": "No, but we encourage you to redeem them as soon as your favorite shops reopen for business."
+        },
+        {
+          "Q": "My favorite business isn’t listed — what should I do?",
+          "A": "Our list of businesses is pulled from Google’s database of 150 million places around the world. Using this system allows us to include as many businesses as possible. While we can’t currently add any businesses that aren’t on this list, we may offer that feature in the future."
+        },
+        {
+          "Q": "Does Community Carecard charge fees to local businesses?",
+          "A": "<strong>Nope!</strong> Today, we’re solely focused on providing relief to local businesses and directing as much financial aid to them as possible. <br/> <br/> When you buy a gift card or send a tip, our payment processing partner charges a small fee (2.5% + $0.30). We add this amount to your purchase so that 100% of your money goes directly to the local business you love. <br/> <br/> The Community Carecard team is staffed entirely by volunteers, though we accept and encourage donations to offset our operating costs. You can help us continue to grow by checking the “Support Community Carecard” box at checkout."
+        },
+        {
+          "Q": "Can Community Carecards be used to make online purchases?",
+          "A": "Community Carecards were created to support in-person purchases at brick + mortar locations and cannot be used for online purchases at this time."
+        },
+        {
+          "Q": "What happens if the business never reopens its doors? Do I get my money back?",
+          "A": "While we hope that Community Carecards will enable every local business to weather the coronavirus pandemic, we know that may not always be the case. <br/> <br/> Yet, because we immediately funnel the funds from your gift card purchase to the business itself, Community Carecard cannot issue refunds if the business folds. <br/> <br/> That sucks — there’s no way around it. But, if it happens, we hope you’ll take heart in the fact you did your part to keep local businesses alive."
+        }
+      ],
+      "BUSINESSES": [
+        {
+          "Q": "Why should I participate in the Community Carecard program?",
+          "A": "We believe in strength in numbers and the power of community. <br/> <br/> The more businesses that sign up for Community Carecard, the more awareness we can generate — and, hopefully, the more customers who will participate. While you can, of course, sell gift certificates over the phone, many customers (cough, millennials) are more comfortable with digital purchases. Additionally, imagine a world where you can sell gift cards even while you’re asleep at night, that’s what our platform can bring to your business! <br/> <br/> Our seamless implementation process allows you to start selling digital gift cards <strong>in under five minutes</strong>, without you having to make any phone calls, wrangle any software, or pay a single cent. We’re in this for you."
+        },
+        {
+          "Q": "How do I receive payment?",
+          "A": "For every  transaction, revenue generated from the sale of gift cards will be instantly transferred to the business bank account or debit account verified by you (business owner) during the Community Carecard registration process."
+        },
+        {
+          "Q": "How can I add my business to your site?",
+          "A": "We’re delighted you’re on board! To list your business with Community Carecard, please click ‘Register my Business’ at the top of the page. We’ll work with you to verify the listing and get you up and running ASAP.<br /><br />Once you’ve been verified with Community Carecard (we just want to make sure you’re the rightful owner), we will send you a link to start the simple registration process with our partner Stripe Connect which will enable you to assign your bank details so you can get paid via direct deposit. In a matter of a few clicks from start to finish, you will be set up and ready to not only sell digital gift cards but also receive payments directly to your designated bank account<br /><br />PS. Since we’re staffed by volunteers and working with as many business owners as possible, your patience is greatly appreciated."
+        },
+        {
+          "Q": "How can I get my customers to buy gift cards?",
+          "A": "We’re living in unprecedented times, and everyone’s looking for ways to help — including your loyal customers. We encourage you to share your Community Carecard profile through your regular channels: social media platforms, email newsletters, even a big sign in your window. In your communications, make sure to express how the coronavirus has affected your business and how digital gift card purchases are vital to helping you stay afloat."
+        },
+        {
+          "Q": "When will customers be able to start redeeming their gift cards?",
+          "A": "Ideally, your loyal customers can redeem their gift cards as soon as you reopen. Otherwise, we’ll set a tentative date of May 1st, 2020.. With the uncertainties ahead, as well as your ability to resume normal operations being tied to government restrictions, we’ll work with you to create a strategy that benefits both you and your favorite customers."
+        },
+        {
+          "Q": "How can I track gift card purchases and redemptions?",
+          "A": "Today, you will receive an email notification for each gift card sold with a unique code, name of purchaser, date purchased and the amount purchased. In the future, we are working to develop a more robust system to help you track and manage the purchase and redemption process. We would love to work with you to better understand your needs as a small business owner and build out a comprehensive system to deliver for you."
+        }
+      ]
+    },
+    "NOT_FOUND": {
+      "HEADER": "404 Not Found",
+      "SUBHEADER": "You would think you wouldn't get lost in your own house.",
+      "ACTION": "GO TO HOME"
+    },
+    "PAYMENT": {
+      "ADD_DONATION": "Add Tip",
+      "ADD_GIFT_CARD": "Add Gift Card",
+      "AMOUNT": "Amount",
+      "CONTINUE": "Continue",
+      "CONTRIBUTION_AMOUNT": "Your total contribution is",
+      "GIFT_CARD_AMOUNT_DESCRIPTION": "Pick your support amount",
+      "DONATION_AMOUNT_DESCRIPTION": "Enter your support amount"
+    },
+    "ONBOARD": {
+      "TITLE": "Claim your business",
+      "DESC": "We are here for you and your business. <br/> Help us verify your business for it to be featured in the Community Carecard site.",
+      "FORM": {
+        "LABEL": {
+          "BIZ": {
+            "NAME": "Business Name",
+            "ID": "Business Identification Code"
+          },
+          "PHONE": "Phone Number",
+          "EMAIL": "Email",
+          "DESC": "Tell your story"
+        },
+        "PLACEHOLDER": {
+          "DESC": "Our family-owned business opened with the vision of..."
+        },
+        "ERROR": {
+          "BIZ": "Please search for your business in the dropdown above.",
+          "EMAIL": "Please provide your business email.",
+          "PHONE": {
+            "REGULAR": "Please provide your business phone number.",
+            "LENGTH": "Please provide a valid phone number length."
+          },
+          "DESC": "Please provide a brief description of your business"
+        },
+        "SUBMIT": "Submit"
+      },
+      "CONFIRMATION" :{
+        "TITLE": "Thanks for your interest in becoming one of our valued small business partners!",
+        "DESC": "Your claim has been forwarded to a Community Carecard team member for review.  We’ve sent you an email to <strong>{{email}}</strong> to confirm receipt of this claim and next steps.<br/><br/>Please add hello@ccarecard.com to your address book and/or look in your spam folder if you don’t hear from us in 24-48 hours.<br/><br/>Talk soon!<br/>The Community Carecard Team",
+        "FAQ_LINK": "VISIT FAQ",
+        "HOME_LINK": "BACK TO HOME"
+      }
+    },
+    "CONFIRMATION_MODAL": {
+      "HEADER": "Almost there...",
+      "PLEASE_CHECK": "Please review your order prior to checking out.",
+      "CCC_TIP_DESC": "Add $1 tip for the CCarecard team 💪",
+      "CCC_TIP_SUB_DESC": "This will help pay for the costs to run our platform",
+      "GO_BACK_CAPS": "GO BACK",
+      "CONTINUE_CAPS": "CONTINUE",
+      "SUBTOTAL": "Sub-total",
+      "PROCESSING_FEE": "Processing fee",
+      "TOTAL": "Total",
+      "EMAIL": "Email",
+      "EMAIL_ERROR": "Please provide your email so we can send you a receipt.",
+      "ITEMIZED": {
+        "ITEM": "ITEM",
+        "VALUE": "Value",
+        "QUANTITY": "Quantity",
+        "GIFT_CARD": "Gift Card",
+        "DONATION": "Business Tip",
+        "COFFEE": "Community Carecard Tip"
+      }
+    },
+    "PAYMENT_SUCCESS": {
+      "TITLE": "Thank you for supporting your favorite local business!",
+      "ID": "Your order confirmation number is: <strong>{{id}}</strong>",
+      "DESC": "We just sent an email to <strong>{{email}}</strong> with purchase details and information on how to redeem your gift card.",
+      "ORDER_ID": "Order Summary",
+      "ERROR": "Uh oh! We couldn't find your order confirmation receipt. <br/> Please contact hello@ccarecard.com with details of your purchase!"
+    },
+    "UNCLAIMED_BUSINESS": {
+      "UNCLAIMED_HEADER": "This business isn’t available yet",
+      "OWNER_PROMPT": "Are you the owner?",
+      "OWNER_DESCRIPTION": "You can claim <strong>{{name}}</strong> so your customers can buy gift cards and send tips through Community Carecard.",
+      "CUSTOMER_PROMPT": "Are you a loyal customer?",
+      "CUSTOMER_DESCRIPTION": "Share Community Carecard with the owner of <strong>{{bizName}}</strong> so they can start receiving the community’s support.",
+      "CLAIM": "Claim this business",
+      "SHARE": "Share"
+    },
+    "RESOURCES": {
+      "GENERAL": {
+        "BIZ_CONT": "Business Continuity Plan",
+        "NRA": "National Restaurant Association COVID-19 Resources"
+      },
+      "CARES": {
+        "BREX_1": "Brex: Navigating the CARES Act with the right advice",
+        "BREX_2": "Brex: How startups can take advantage of SBA loans",
+        "TREASURY": "U.S. Treasury Assistance for Small Businesses",
+        "PEEK": "Peek + Womply: Fast-track your PPP Loan",
+        "FAIRE": "Faire: Federal Relief is Available – Here’s What You Need to Know",
+        "PPP": "PPP Fact Sheet",
+        "PREGUNTAS": "Preguntas Frecuentes Sobre el Programa de Protección de Pago de Cheques para Pequeñas Empresas",
+        "FAIRE_2": "Faire: Small business relief from the CARES Act",
+        "SBA": "How Paycheck Protection Loans Are Different Than Traditional 7(a) SBA Loans",
+        "STIM": "How Your Business Can Take Advantage of the $2T Stimulus Package",
+        "GUIDE": "The Small Business Owner’s Guide to the CARES Act"
+      },
+      "FEDERAL": {
+        "IRS": {
+          "NAME": "Internal Revenue Service (IRS)",
+          "DESC": "The IRS has established a special section focused on steps to help taxpayers, businesses and others affected by the coronavirus."
+        },
+        "SBA": {
+          "NAME": "Small Business Administration (SBA)",
+          "DESC": "The Coronavirus Small Business Guidance & Loan Resources page is being continually updated with all SBA tools and resources, including preparedness checklists and different avenues to access capital."
+        },
+        "SBA_2": {
+          "NAME": "SBA Disaster Loan Assistance",
+          "DESC" : "Low interest loans up to $2 million dollars."
+        },
+        "SBA_ONE_PAGER": "SBA Disaster Assistance Loan One-Pager",
+        "SBA_FIND": "Find your local SBA office (any state)",
+        "SBDC": {
+          "NAME": "America’s SBDC",
+          "DESC": "Consultants who will help you complete SBA Disaster Assistance Loan at no cost."
+        },
+        "ECON": "Economic Development Collaborative COVID-19 Business Resource Guide",
+        "PERKINS": "Perkins Coie Coronavirus: Guidance for Businesses",
+        "LEAVE": "COVID-19 Federal Paid Leaves Explained"
+      },
+      "COMMERCIAL": {
+        "AMZN": "Amazon’s Neighborhood Small Business Relief Fund",
+        "FB": "Facebook Small Business Grants Program",
+        "DIGITAL": "Digital.com’s 32 Small Business Grants You Can Apply For in 2020",
+        "UBER": {
+          "NAME": "UberEats",
+          "DESC": "Delivery fees will be waived for all orders from independently owned restaurants on the app."
+        },
+        "GOOGLE": {
+          "NAME": "Google Hangouts",
+          "DESC": "Free access to Hangouts Meet video-conferencing capabilities until July 1 so businesses can stay connected with teams and vendors."
+        }
+      },
+      "FIN_AID": {
+        "GUSTO": "Gusto Coronavirus Loan and Relief Resources for Small Businesses",
+        "KIVA": {
+          "NAME": "Kiva Small Business Loans",
+          "DESC": "0% interest loans up to $15,000"
+        },
+        "RELIEF": "List of Relief Funds for Restaurants, Bars, and Food Service Workers",
+        "DUA": "Disaster Unemployment Assistance (DUA)",
+        "FILING_CA": "Filing an Unemployment Insurance Claim in California"
+      },
+      "HEALTH": {
+        "HEADSPACE": {
+          "NAME": "Headspace",
+          "DESC": "To help support you through this time of crisis, Headspace is offering some free meditations you can listen to anytime."
+        },
+        "CRISIS": {
+          "NAME": "Crisis Text Line",
+          "DESC": "Every texter is connected with a Crisis Counselor, a real-life human being trained to bring texters from a hot moment to a cool calm through active listening and collaborative problem solving."
+        },
+        "EMPOWER": {
+          "NAME": "EmpowerWork",
+          "DESC": "Text 510-674-1414 to connect with a trained volunteer peer counselor. Empower Work is a national nonprofit on a mission to build healthier workplaces. Peer counselors support people at critical work moments."
+        }
+      }
+    },
+    "BIZ_RESOURCE": {
+      "HEADER": "Small Business Resources",
+      "DESC": "The coronavirus pandemic is affecting small businesses in a variety of ways. We’ve highlighted some resources to help businesses like yourself navigate this challenging time. Please keep in mind, information is constantly evolving, so please refer to each site for the most up-to-date information.",
+      "FOOTER": "Quick note: This is not to be taken as tax, legal, benefits, financial, or HR advice. Since rules and regulations change over time and can vary by location, consult a lawyer or HR expert for specific guidance."
+    }
+  }
+}

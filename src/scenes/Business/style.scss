@@ -1,0 +1,72 @@
+@import 'styles/screenSizes.scss';
+
+.business-page {
+  padding: 60px 80px;
+
+  .business-section {
+    display: flex;
+
+    .business-header {
+      width: 100%;
+      margin-bottom: 20px;
+
+      .business-name-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      h2 {
+        margin-bottom: 0;
+      }
+    }
+
+    .business-location {
+      font-size: 14px;
+
+      div {
+        display: inline-block;
+        margin-left: 8px;
+      }
+    }
+
+    .business-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .business-support-form {
+      padding-left: 20px;
+
+      .business-description {
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+    }
+  }
+
+  @include mobile {
+    padding: 0;
+
+    .business-section {
+      .business-header {
+        margin: 20px 10px;
+
+        h2 {
+          font-size: 24px;
+        }
+      }
+
+      .business-image {
+        order: -1;
+        margin: 0 0;
+      }
+
+      .business-support-form {
+        margin-bottom: 20px;
+        padding: 0 10px;
+      }
+    }
+  }
+}

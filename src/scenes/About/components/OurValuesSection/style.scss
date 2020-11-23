@@ -1,0 +1,30 @@
+@import './../../../../styles/colors.scss';
+
+.values {
+  text-align: center;
+  padding: 0 20px;
+
+  .border {
+    border-top: 1px solid $gray-99;
+    margin: 40px 25% 0px 25%;
+  }
+  .title {
+    margin: 40px 0px 40px 0px;
+  }
+  .values-row {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .optimistic {
+    color: $values-yellow;
+  }
+  .local {
+    color: $values-green;
+  }
+  .compassionate {
+    color: $values-pink;
+  }
+  .trustworthy {
+    color: $values-blue;
+  }
+}

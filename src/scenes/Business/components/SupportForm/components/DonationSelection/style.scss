@@ -1,0 +1,25 @@
+@import 'styles/colors.scss';
+
+.donation-selection {
+  .donation-description {
+    color: $blue-700;
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .currency-sign {
+    display: inline;
+    color: $blue-700;
+    margin-right: 6px;
+  }
+
+  .donation-input {
+    input {
+      color: $blue-700;
+    }
+
+    .ant-input-number-handler-wrap {
+      display: none;
+    }
+  }
+}

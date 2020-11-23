@@ -1,0 +1,17 @@
+.itemized-section-container {
+  text-align: center;
+
+  .itemized-section-header {
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .itemized-section-row {
+    font-size: 12px;
+  }
+  
+  .itemized-section-divider {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,55 @@
+@import '../colors.scss';
+
+.ant-btn {
+  &.ant-btn-primary {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+
+    &:hover, &:focus, &:active {
+      color: white;
+      background-color: $blue-900;
+    }
+  }
+
+  &:hover, &:focus, &:active {
+    color: $secondary-color;
+    border-color: $secondary-color;
+    background-color: $tertiary-200;
+  }
+}
+
+.btn-outlined-action {
+  border-color: $primary-color;
+  color: $primary-color;
+  background-color: white;
+
+  &:hover, &:focus, &:active {
+    background-color: $primary-color;
+    color: white;
+    border-color: $primary-color;
+  }
+}
+
+.btn-outlined-secondary {
+  border-color: $secondary-color;
+  color: $secondary-color;
+  background-color: white;
+
+  &:hover, &:focus, &:active {
+    background-color: $secondary-color;
+    color: white;
+    border-color: $secondary-color;
+  }
+}
+
+.btn-filled-action {
+  border-color: $primary-color;
+  background-color: $primary-color;
+  color: white;
+
+  &:hover, &:focus, &:active {
+    background-color: $orange-900;
+    color: white;
+    border-color: $primary-color;
+  }
+}

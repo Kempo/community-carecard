@@ -1,0 +1,55 @@
+@import '~antd/dist/antd.css';
+@import './colors.scss';
+@import './antdOverrides/button.scss';
+@import './antdOverrides/checkbox.scss';
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+  color: $gray-700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+
+  &.white {
+    color: white;
+  }
+}
+
+h2 {
+  color: $blue-700;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  color: $blue-700;
+  font-weight: 600;
+  font-size: 24px;
+
+  &.primary {
+    color: $orange-700;
+  }
+}
+
+h5 {
+  color: $blue-700;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  color: $gray-700;
+}
+
+a {
+  color: $blue-700;
+}

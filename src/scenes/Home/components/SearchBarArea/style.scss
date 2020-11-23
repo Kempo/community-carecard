@@ -1,0 +1,61 @@
+@import 'styles/colors.scss';
+@import 'styles/screenSizes.scss';
+
+.search-area-container {
+  background-image: url('../../../../images/textures/search-texture-small.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: $teal-300;
+  text-align: center;
+
+  @include desktop {
+    background-image: url('../../../../images/textures/search-texture-large.png');
+  }
+
+  .main-header{
+    font-size: 20px;
+    color: $gray-600;
+    margin-top: 136px;
+  }
+
+  .search-area {
+    display: flex;
+    align-items: center;
+    margin: 34px 0 0 0;
+
+    span {
+      margin-right: 14px;
+      font-size: 30px;
+      color: $gray-500;
+    }
+
+    input {
+      border-radius: 28px;
+      padding: 16px 20px;
+      font-size: 12px;
+    }
+  }
+  .search-area-text {
+    margin: 54px 0 80px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+
+    @include mobile {
+      text-align: left;
+    }
+
+    p {
+      margin-bottom: 25px;
+    }
+  }
+
+  img.c-logo {
+	height: 112px;
+	background-color: white;
+	border-radius: 50%;
+	margin-bottom: -56px;
+	padding: 20px;
+  }
+}

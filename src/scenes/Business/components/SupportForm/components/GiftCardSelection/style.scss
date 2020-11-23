@@ -1,0 +1,44 @@
+@import 'styles/colors.scss';
+
+.gift-card-selection {
+  .amount-description {
+    color: $blue-700;
+    font-size: 12px;
+  }
+
+  .amount-selection {
+    margin-top: 16px;
+
+    input {
+      color: $blue-700;
+    }
+  }
+
+  .quantity-selection {
+    margin-top: 20px;
+  }
+
+  .ant-radio-group {
+    text-align: center;
+
+    .ant-radio-button-wrapper:not(:first-child)::before {
+      content: none;
+    }
+
+    .ant-radio-button-wrapper {
+      height: 32px;
+      width: 90px;
+      color: $blue-700;
+      border-color: $blue-700;
+      border-width: 1px;
+      border-radius: 16px;
+      margin-right: 8px;
+
+      &.ant-radio-button-wrapper-checked {
+        color: white;
+        background-color: $blue-700;
+        border-color: $blue-700;
+      }
+    }
+  }
+}

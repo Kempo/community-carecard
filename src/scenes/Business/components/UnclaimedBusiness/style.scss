@@ -1,0 +1,39 @@
+@import 'styles/colors.scss';
+@import 'styles/antdOverrides/button.scss';
+@import 'styles/screenSizes.scss';
+
+.unclaimed-business {
+  .owner-section,
+  .customer-section {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .subhead {
+    color: $blue-700;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+  }
+
+  .description {
+    color: $blue-700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-right: 24px;
+  }
+
+  .social-buttons {
+    padding-bottom: 30px;
+
+    @include mobile {
+      margin-top: 24px;
+    }
+  }
+
+  button[type="button"] {
+    min-width: 100%;
+    margin-top: 24px;
+  }
+}

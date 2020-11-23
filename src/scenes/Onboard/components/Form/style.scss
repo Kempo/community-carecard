@@ -1,0 +1,27 @@
+@import '../../../../styles/screenSizes.scss';
+@import '../../../../styles/antdOverrides/button.scss';
+
+
+#business-form {
+  width: 500px; 
+
+  .hidden-field-with-validation {
+    position: relative;
+
+    & > div {
+      position: absolute;
+    }
+
+    .ant-form-item-control-input {
+      display: none;
+    }
+
+    .ant-form-item-control {
+      margin-top: -24px;
+    }
+  }
+
+  @include small-mobile {
+    width: 70%;
+  }
+}

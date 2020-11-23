@@ -1,0 +1,13 @@
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .title {
+    margin-top: 64px;
+  }
+
+  .links {
+    padding: 10px 20px 60px 20px;
+  }
+}

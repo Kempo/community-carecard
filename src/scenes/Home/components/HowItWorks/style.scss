@@ -1,0 +1,92 @@
+@import 'styles/colors.scss';
+@import 'styles/screenSizes.scss';
+
+.how-it-works {
+  background-image: url('../../../../images/textures/how-it-works-texture-small.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+
+  .body-text {
+    margin: auto;
+    text-align: left;
+
+    b {
+      color: $blue-700;
+      font-weight: 600;
+    }
+  }
+
+  @include large-desktop {
+    background-image: url('../../../../images/textures/how-it-works-texture-large.png');
+  }
+
+  @include mobile {
+    background-image: url('../../../../images/textures/how-it-works-top-texture-mobile.png'), url('../../../../images/textures/how-it-works-bottom-texture-small.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: initial;
+    background-position: top right, bottom right;
+  }
+
+  .c-logo {
+    height: 100px;
+    margin-bottom: 48px;
+  }
+
+  .title {
+    margin-bottom: 64px;
+  }
+
+  .bdy {
+    font-size: 16px;
+    color: #545454;
+    font-weight: 400;
+  }
+
+  h5 {
+    margin: 52px 0 78px 0;
+  }
+
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-top;
+
+    .step {
+      margin: 0 20px;
+      width: 20%;
+
+      img {
+        max-height: 145px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 24px;
+      }
+    }
+
+    @include large-desktop {
+      .step img {
+        max-height: 150px;
+      }
+    }
+
+    @include mobile {
+      flex-direction: column;
+
+      .step {
+        width: 100%;
+        margin: 0 0 60px 0;
+
+        img {
+          max-height: 200px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

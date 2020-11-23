@@ -1,0 +1,13 @@
+@import 'styles/colors.scss';
+
+.meet-team-section {
+  .section-title {
+    margin: 46px 0;
+  }
+
+  .team-members {
+    .team-member:nth-child(odd) {
+      background-color: $tertiary-200;
+    }
+  }
+}

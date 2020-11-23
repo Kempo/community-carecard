@@ -1,0 +1,48 @@
+@import 'styles/colors.scss';
+@import 'styles/sizes.scss';
+@import 'styles/screenSizes.scss';
+
+.footer.ant-layout-footer {
+  background-color: $blue-700;
+  padding: 0;
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $footer-height;
+
+    .footer-section {
+      padding: 0 43px;
+
+      @include mobile {
+        padding: 0 24px;
+      }
+
+      @include small-mobile {
+        padding: 8px;
+      }
+
+      .internal-link,
+      .external-link {
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        padding: 0 13px;
+        cursor: pointer;
+
+        @include mobile {
+          display: block;
+        }
+      }
+
+      .internal-link {
+        font-weight: bold;
+      }
+
+      .external-link {
+        text-decoration: underline;
+      }
+    }
+  }
+}

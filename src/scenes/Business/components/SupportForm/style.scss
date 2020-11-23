@@ -1,0 +1,32 @@
+@import 'styles/colors.scss';
+
+.support-form {
+  .selection-panel {
+    margin: 24px 0;
+  }
+
+  .total-section {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $blue-700;
+
+    .total-description {
+      font-size: 12px;
+    }
+
+    .total {
+      font-size: 24px;
+    }
+  }
+
+  .disabled-text {
+    display: inline-block;
+    margin-right: 24px;
+  }
+
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    color: $blue-700;
+  }
+}

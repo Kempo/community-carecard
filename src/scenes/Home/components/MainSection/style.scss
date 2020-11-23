@@ -1,0 +1,86 @@
+@import 'styles/screenSizes.scss';
+@import 'styles/colors.scss';
+$main-search-font-size: 80%;
+
+.main-section {
+  width: 100%;
+  background-image: url(../../../../images/home-banner.png);
+  background-position: right;
+  background-size: cover;
+
+  @include mobile {
+    background-image: url(../../../../images/home/Mobile_main_image.png);
+  }
+
+  @include large-desktop {
+    background-image: url(../../../../images/home-banner-large.png);
+  }
+
+  .main-header {
+    margin-top: 115px;
+    margin-bottom: 40px;
+    line-height: 38px;
+
+    @include mobile {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 64px;
+    }
+  }
+
+  .main-center-nav-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 70px;
+
+    @include mobile {
+      margin-bottom: 40px;
+    }
+
+    .buy-button, .reg-button{
+      height: 48px;
+      margin: 0 20px 20px 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+
+    .buy-button, .buy-button:focus{
+      color: white;
+      background-color: $blue-700;
+      padding: 0 40px;
+    }
+
+    .buy-button:hover{
+      background-color: $blue-900;
+    }
+
+    .reg-button, .reg-button:focus{
+      color: $blue-700;
+      background-color: white;
+      padding: 0 25px;
+    }
+
+    .reg-button:hover{
+      background-color: $gray-36;
+    }
+
+    input {
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: $main-search-font-size;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        font-size: $main-search-font-size;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        font-size: $main-search-font-size;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        font-size: $main-search-font-size;
+      }
+    }
+  }
+}

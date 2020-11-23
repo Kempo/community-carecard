@@ -1,0 +1,28 @@
+@import 'styles/colors.scss';
+
+.share-button {
+  position: relative;
+  color: $blue-700;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  .share-icon {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+
+  .social-buttons {
+    position: absolute;
+    top: -40px;;
+    right: 0;
+    width: 200px;
+  }
+}
+.social-buttons-popover {
+  width: 240px;
+}

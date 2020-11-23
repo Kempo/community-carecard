@@ -1,0 +1,28 @@
+@import 'styles/colors.scss';
+
+.increment-selector {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+
+  .number-input {
+    width: 44px;
+    .ant-input-number-input {
+      text-align: center;
+    }
+
+    .ant-input-number-handler-wrap {
+      display: none;
+    }
+  }
+
+  .decrement-button {
+    color: $blue-gray-500;
+    margin-right: 8px;
+  }
+
+  .increment-button {
+    color: $orange-700;
+    margin-left: 8px;
+  }
+}

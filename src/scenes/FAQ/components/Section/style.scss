@@ -1,0 +1,24 @@
+@import '../../../../styles/colors.scss';
+
+.faq-category {
+  width: 100%;
+  padding-top: 32px;
+
+  .container {
+    width: 80%;
+    text-align: left;
+
+    h3 {
+      color: $primary-color;
+    }
+
+    .custom-collapse {
+      background-color: white;
+      .custom-panel {
+        background-color: white;
+        margin-bottom: 24px;
+        border: 0px;
+      }
+    }
+  }
+}

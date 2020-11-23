@@ -1,0 +1,35 @@
+@import 'styles/colors.scss';
+
+.confirm-total-section {
+  text-align: right;
+  font-weight: bold;
+
+  .left-col {
+    font-size: 10px;
+    display: inline-block ;
+  }
+
+  .right-col {
+    font-size: 12px;
+    width: 82px;
+    padding-left: 20px;
+    display: inline-block ;
+  }
+
+  .left-bottom {
+    font-size: 14px;
+    display: inline-block ;
+  }
+
+  .right-bottom {
+    color: $primary-color;
+    font-size: 16px;
+    padding-left: 20px;
+    display: inline-block ;
+  }
+
+  .confirm-total-divider {
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }
+}

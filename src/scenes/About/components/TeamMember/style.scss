@@ -1,0 +1,18 @@
+.team-member {
+  padding: 30px 0;
+  font-size: 14px;
+
+  .member-image {
+    margin-right: 40px;
+  }
+
+  .member-info {
+    .location {
+      margin-bottom: 0px;
+    }
+
+    .member-name {
+      margin: 5px 0 0 0;
+    }
+  }
+}

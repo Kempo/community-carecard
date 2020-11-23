@@ -1,0 +1,53 @@
+@import 'styles/screenSizes.scss';
+
+.onboard-flow {
+  color: black;
+  margin-bottom: 64px;
+
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .step {
+      margin: 0px 20px;
+
+      img {
+        max-height: 120px;
+      }
+
+      p {
+        color: #545454;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 36px;
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+
+    @include large-desktop {
+      .step img {
+        max-height: 150px;
+      }
+    }
+
+    @include mobile {
+      flex-direction: column;
+
+      .step {
+        width: 100%;
+        margin: 0 0 60px 0;
+
+        img {
+          max-height: 180px;
+          margin-bottom: 40px;
+        }
+
+        p {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}

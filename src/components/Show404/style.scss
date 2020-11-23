@@ -1,0 +1,25 @@
+@import '../../styles/screenSizes.scss';
+
+.not-found {
+  padding-top: 32px;
+  padding-bottom: 64px;
+  text-align: center;
+
+  h2 {
+      margin-bottom: 48px;
+  }
+
+  .subheader {
+      font-size: 20px;
+  }
+
+  img {
+    margin-bottom: 48px;
+  }
+
+  @include small-mobile {
+    img {
+        width: 250px;
+    }
+  }
+}

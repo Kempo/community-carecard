@@ -1,0 +1,10 @@
+export { default as About } from './About';
+export { default as Business } from './Business';
+export { default as FAQ } from './FAQ';
+export { default as Contact } from './Contact';
+export { default as Home } from './Home';
+export { default as Onboard } from './Onboard';
+export { default as Confirmation } from './Confirmation';
+export { default as Resources } from './Resources';
+export { default as PrivacyPolicy } from './PrivacyPolicy';
+export { default as ForBusinesses } from './ForBusinesses';
