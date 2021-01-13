@@ -6,7 +6,7 @@ Received $1000 grant from the 1517 Fund.
 
 **Status:** Temporarily shutdown as of December 2020.
 
-[Website](https://ccarecard.com)
+[http://ccarecard.com](http://ccarecard.com)
 
 # Stack
 - React.js
